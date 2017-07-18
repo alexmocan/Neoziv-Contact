@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="false"
+    tools:ignore="contentDescription"
+    tools:context="com.neoziv.neoziv.MainActivity" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <ImageView
+            android:id="@+id/logo_neoziv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openWebURL"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_neoziv_final" />
+
+        <ImageView
+            android:id="@+id/computerImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:layout_gravity="center"
+            android:src="@drawable/computers" />
+
+        <TextView
+            android:id="@+id/contactatine_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/contact_us"
+            android:textSize="30sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <ImageView
+                android:id="@+id/location_imageview"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/neoziv_location" />
+
+            <TextView
+                android:id="@+id/location_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/neoziv_location"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1">
+
+            <ImageView
+                android:id="@+id/phone_imageview"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/neoziv_phone" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/neoziv_phone"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <ImageView
+                android:id="@+id/fax_imageview"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/neoziv_fax" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/neoziv_fax"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <ImageView
+                android:id="@+id/email_imageview"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/neoziv_email" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:autoLink="email"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/neoziv_email"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/info_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/neoziv_details"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/contact_us_button"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/contactus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="openWebURLContact"
+            android:text="@string/text_button"
+            android:textAllCaps="false" />
+
+    </TableLayout>
+</ScrollView>
+
+
+
+
+

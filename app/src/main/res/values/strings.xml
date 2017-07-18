@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Neoziv</string>
+    <string name="contact_us">Contactati-ne</string>
+    <string name="neoziv_email">office@neoziv.ro</string>
+    <string name="neoziv_location">Strada Salcamului Nr. 40, Ap 10, 400377, Cluj-Napoca, jud. Cluj, Romania</string>
+    <string name="neoziv_phone">+40 753 313 550</string>
+    <string name="neoziv_fax">+40 364 734 154</string>
+    <string name="neoziv_details">Pentru informatii legate de firmă, produsele sau serviciile noastre va rugam completati formularul de contact*.</string>
+    <string name="contact_us_button">*Pentru a accesa formularul de contact, va rugam apasati butonul de mai jos.</string>
+    <string name="text_button">be smart with us</string>
+</resources>
